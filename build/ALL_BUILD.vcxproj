@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7131EABF-B0CE-3A70-A178-DF14A41961AD}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\erice\Documents\sb7code-master\include;C:\Users\erice\Documents\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\erice\Documents\sb7code-master\include;C:\Users\erice\Documents\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\erice\Documents\sb7code-master\include;C:\Users\erice\Documents\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\erice\Documents\sb7code-master\include;C:\Users\erice\Documents\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\erice\Documents\sb7code-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/erice/Documents/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/erice/Documents/sb7code-master -BC:/Users/erice/Documents/sb7code-master/build --check-stamp-file C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/erice/Documents/sb7code-master/CMakeLists.txt;C:\Users\erice\Documents\sb7code-master\CMakeLists.txt;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenMP.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\FindOpenMP\ompver.c;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\FindOpenMP\ompver.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/erice/Documents/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/erice/Documents/sb7code-master -BC:/Users/erice/Documents/sb7code-master/build --check-stamp-file C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/erice/Documents/sb7code-master/CMakeLists.txt;C:\Users\erice\Documents\sb7code-master\CMakeLists.txt;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenMP.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\FindOpenMP\ompver.c;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\FindOpenMP\ompver.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/erice/Documents/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/erice/Documents/sb7code-master -BC:/Users/erice/Documents/sb7code-master/build --check-stamp-file C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/erice/Documents/sb7code-master/CMakeLists.txt;C:\Users\erice\Documents\sb7code-master\CMakeLists.txt;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenMP.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\FindOpenMP\ompver.c;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\FindOpenMP\ompver.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/erice/Documents/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/erice/Documents/sb7code-master -BC:/Users/erice/Documents/sb7code-master/build --check-stamp-file C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/erice/Documents/sb7code-master/CMakeLists.txt;C:\Users\erice\Documents\sb7code-master\CMakeLists.txt;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenMP.cmake;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\FindOpenMP\ompver.c;C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\FindOpenMP\ompver.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\Users\erice\Documents\sb7code-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/ZERO_CHECK.vcxproj">
+      <Project>2C04F3F6-8C16-3A38-9956-5DB75C174375</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/alienrain.vcxproj">
+      <Project>59771094-5E3E-3F41-B3D2-005464A35095</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/basicfbo.vcxproj">
+      <Project>9936C904-593F-3673-B76D-DD6A09851B31</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/bindlesstex.vcxproj">
+      <Project>0162D69A-395C-3DC2-99E4-9AF38115FDCC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/blendmatrix.vcxproj">
+      <Project>35E4A1D6-3B30-3239-BB7A-A4E984B71CF5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/blinnphong.vcxproj">
+      <Project>4F83851B-C759-3B1B-B2ED-2189D40110B8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/bumpmapping.vcxproj">
+      <Project>60187469-C5BB-3691-B489-9EB310AB113A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/clipdistance.vcxproj">
+      <Project>A32467D3-1507-35B7-B8C9-6CADE53F6F3B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/compressrgtc.vcxproj">
+      <Project>62FF08FC-8A9E-350A-97A6-22118CD49025</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/csflocking.vcxproj">
+      <Project>479C863D-DCFF-3A21-8C2B-C6CEDABAC742</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/cubemapenv.vcxproj">
+      <Project>463C94C9-485D-3C3A-B9D4-EBAF0AA3AB88</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/cubicbezier.vcxproj">
+      <Project>E3A52F13-C9B6-3CDB-91D8-225C331B8606</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/cullindirect.vcxproj">
+      <Project>34A6E303-B5AE-35F2-AF07-F2AF6F48EF85</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/deferredshading.vcxproj">
+      <Project>FB06F7A7-D92B-396A-BCDF-77D63F36E035</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/depthclamp.vcxproj">
+      <Project>C2A34E56-4327-3789-82EB-90E7B36B2AA4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/dflandscape.vcxproj">
+      <Project>42C9E37D-4563-3D27-9BA6-8E4449B5F4C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/dispmap.vcxproj">
+      <Project>F76EB882-79FC-32C5-923C-8C3200D35E73</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/dof.vcxproj">
+      <Project>746EFA5B-256E-398D-9FBA-19232D6C2D38</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/envmapsphere.vcxproj">
+      <Project>D6016AFF-BC96-384A-88B1-FD15D4A7E8AA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/equirectangular.vcxproj">
+      <Project>EAE972E4-3222-3C8B-AE1F-8A5084792762</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/fontdemo.vcxproj">
+      <Project>0AB2B3CC-2CD6-345E-839F-B05102200D5D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/fragcolorfrompos.vcxproj">
+      <Project>3C095F49-3018-33AF-889F-9B8285894D2A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/fragmentlist.vcxproj">
+      <Project>696D92CE-8911-3517-AFF0-C250126BBFE4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/grass.vcxproj">
+      <Project>B6DF4D83-94BE-3ABD-BA6A-CAF0F854B0E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/gsculling.vcxproj">
+      <Project>8DFEF290-8731-3916-8A13-A35A0127AAB6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/gslayered.vcxproj">
+      <Project>447A8974-156B-39A3-8C39-EA3E90F45F19</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/gsquads.vcxproj">
+      <Project>0666F437-6458-3DFB-95EB-0E1D56F16EEA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/gstessellate.vcxproj">
+      <Project>3F9A8A39-5BE4-360B-8761-5EDEA8297501</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/hdrbloom.vcxproj">
+      <Project>AC8CC465-46F0-3AAC-94C0-86FDA727AC28</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/hdrexposure.vcxproj">
+      <Project>E3CAEE6C-CEF1-3CD5-A6C3-241CE60FFB7C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/hdrtonemap.vcxproj">
+      <Project>19168B16-D3C3-3B10-97E5-068CB994E8E8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/hqfilter.vcxproj">
+      <Project>65AF3625-63A0-36D3-AB9E-A77F911D064C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/indexedcube.vcxproj">
+      <Project>7F2EDCE4-0720-3B04-995A-4FF89F456382</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/indirectmaterial.vcxproj">
+      <Project>EC5369EB-907E-3F56-B1E9-E7CA8FED792C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/instancedattribs.vcxproj">
+      <Project>D0A6C115-36EB-33E0-B1FE-A6D866FC5A3E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/julia.vcxproj">
+      <Project>4E86CE8F-1DB7-3337-99B8-81E2F2637478</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/ktxview.vcxproj">
+      <Project>1A05FB39-CA19-3738-AA11-B1C66CD4AA1B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/linesmooth.vcxproj">
+      <Project>6125EDAC-0B3D-3E29-B004-063DFED1CDD0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/mirrorclampedge.vcxproj">
+      <Project>6C794147-3A45-38F0-8879-29F695389889</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/movingtri.vcxproj">
+      <Project>3EB1CF74-27DE-3E4F-9A69-90FC4A400EE1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/msaanative.vcxproj">
+      <Project>8D53C354-1C4D-3D1C-B63C-0E3BF603142A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/multidrawindirect.vcxproj">
+      <Project>F6611EE4-0EC3-36A2-AC80-33EDD5E888F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/multiscissor.vcxproj">
+      <Project>F80D9495-3A30-39D3-886B-144B3D75C994</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/multiviewport.vcxproj">
+      <Project>17AB8C07-C3A2-33A4-8755-DCDD1AFEACEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/noperspective.vcxproj">
+      <Project>5C318A4C-9B22-3350-87EA-A064831A6C4F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/normalviewer.vcxproj">
+      <Project>5B3C3801-4A6B-3BD0-BC21-C8218FD67FCA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/objectexploder.vcxproj">
+      <Project>8A0E90A0-6425-3244-BACE-8FB76683D1EE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/ompparticles.vcxproj">
+      <Project>B834C182-5737-39BA-B92D-475A468ED40B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/packetbuffer.vcxproj">
+      <Project>6388EC86-22C3-33CC-B4F2-6BA6C1481BF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/perpixelgloss.vcxproj">
+      <Project>D1707A73-83EA-3988-A9B8-F946ED740CCC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/phonglighting.vcxproj">
+      <Project>0106CC71-710D-34B7-AA12-2A9EBE0AB273</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/pmbfractal.vcxproj">
+      <Project>9CFD9A33-30C4-31C7-A4A7-1E3974CEC89D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/pmbstreaming.vcxproj">
+      <Project>09C6B1B4-299D-3D90-BEDD-1E8AFCDFE9C7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/polygonsmooth.vcxproj">
+      <Project>9CF0CA7E-455A-394B-A583-C26ECF079F6A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/prefixsum.vcxproj">
+      <Project>D866D238-656D-3430-A169-7C2588DF8BFA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/prefixsum2d.vcxproj">
+      <Project>9DBE3467-62DC-3540-998E-1F3D74DC7DC0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/programinfo.vcxproj">
+      <Project>295762CC-209A-3E22-BB18-0D6F73F2AA9B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/raytracer.vcxproj">
+      <Project>B09EF3BF-9454-39BE-82E1-6BF8526E3343</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/rimlight.vcxproj">
+      <Project>8CA3DAEC-4C64-36AB-AD37-88FDAA8C9DF2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/sampleshading.vcxproj">
+      <Project>F951F04E-9607-37D4-B18B-BA645D01C304</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/sb7.vcxproj">
+      <Project>32114798-C9CC-312D-B70A-F9797A8CE144</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/sdfdemo.vcxproj">
+      <Project>58561F71-306E-3CB6-BDAE-65D5C8617F7C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/shadowmapping.vcxproj">
+      <Project>7E1B3422-8EF1-3908-AEA4-09865C8824EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/shapedpoints.vcxproj">
+      <Project>63D9E986-8C07-3C40-96DF-957133770E73</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/simpleclear.vcxproj">
+      <Project>6D46F45F-C42F-3C82-AD64-29B432EBAAC2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/simpletexcoords.vcxproj">
+      <Project>3EB716E6-FCA0-370F-B13B-923F716F30A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/simpletexture.vcxproj">
+      <Project>3E11A1B2-757B-3413-A222-8417A54A786E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/singlepoint.vcxproj">
+      <Project>9242D64D-17EE-3A0B-8789-84B847C10B03</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/singletri.vcxproj">
+      <Project>FC24D941-BD59-3F22-ADCC-D767CDDCDC76</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/sparsetexture.vcxproj">
+      <Project>ADF2067B-056F-325F-877A-629CD0884B05</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/spinnycube.vcxproj">
+      <Project>1A397C62-1E59-34F2-8AD7-246B6ED560DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/springmass.vcxproj">
+      <Project>B9A478C9-E277-31E4-AC07-66C9A6AB5267</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/ssao.vcxproj">
+      <Project>1BC04C15-C88C-31E5-A6AA-095AA14A010D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/starfield.vcxproj">
+      <Project>70F6955D-A9FB-3554-833C-8323A3EEECB6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/stereo.vcxproj">
+      <Project>B860EFA1-D5AD-30A2-B88D-34222A5FE298</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/subroutines.vcxproj">
+      <Project>96936C70-4FB9-3282-BF1D-53CC987C80D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/tessellatedcube.vcxproj">
+      <Project>5E01D6C9-DF91-3774-AB35-ED723543BCCF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/tessellatedgstri.vcxproj">
+      <Project>E8333AF2-5C86-3DCA-BDAE-465BC61EB21E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/tessellatedtri.vcxproj">
+      <Project>B8C5C73C-CE6C-331E-B1D6-DD0A3B08B64B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/tessmodes.vcxproj">
+      <Project>87E47FC7-1943-37B2-A570-E7968E620DA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/tesssubdivmodes.vcxproj">
+      <Project>97461277-E681-3971-BCAD-481366CE39C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/toonshading.vcxproj">
+      <Project>4C1ACEC1-1AC2-3CA2-A418-C24A106D5426</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/tunnel.vcxproj">
+      <Project>24834566-21CF-37BF-A086-9489A8CD89CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/erice/Documents/sb7code-master/build/wrapmodes.vcxproj">
+      <Project>5B6E90F0-D9D8-3A6F-BBCB-014A5A92BD06</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

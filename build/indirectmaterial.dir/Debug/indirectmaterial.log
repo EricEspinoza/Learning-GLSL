@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/erice/Documents/sb7code-master/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\generate.stamp is up-to-date.
+  indirectmaterial.cpp
+C:\Users\erice\Documents\sb7code-master\include\vmath.h(1022): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\erice\Documents\sb7code-master\src\indirectmaterial\indirectmaterial.cpp(214): warning C4018: '<': signed/unsigned mismatch
+  indirectmaterial.vcxproj -> C:\Users\erice\Documents\sb7code-master\bin\indirectmaterial_d.exe

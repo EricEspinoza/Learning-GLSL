@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/erice/Documents/sb7code-master/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\erice\Documents\sb7code-master\build\CMakeFiles\generate.stamp is up-to-date.
+  julia.cpp
+  julia.vcxproj -> C:\Users\erice\Documents\sb7code-master\bin\julia_d.exe
